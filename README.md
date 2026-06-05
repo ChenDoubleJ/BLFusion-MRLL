@@ -6,7 +6,7 @@
 
 ### Multi-modal Real-world Low-light Dataset
 
-[![Paper](https://img.shields.io/badge/Paper-TIP(CCF--A)%20revision-blue)](#citation)
+[![Paper](https://img.shields.io/badge/Paper-TIP(CCF--A)%20Accepted-blue)](#citation)
 [![Code](https://img.shields.io/badge/Code-coming%20soon-orange)](#release-plan)
 [![Dataset](https://img.shields.io/badge/MRLL-available-brightgreen)](#dataset-availability)
 [![License](https://img.shields.io/badge/License-coming%20soon-lightgrey)](#license)
