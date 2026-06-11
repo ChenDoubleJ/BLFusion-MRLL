@@ -99,7 +99,7 @@ The full MRLL dataset is available at:
 
 ## 🔍 Synchronized Dual-Spectral Imaging and Registration
 
-MRLL is collected with synchronized visible and infrared imaging devices. The visible and infrared images are aligned through cross-modal registration to obtain paired dual-spectral samples for fusion research.
+MRLL is collected with synchronized visible and infrared imaging devices (DJI Matrice 4T). The visible and infrared images are aligned through cross-modal registration to obtain paired dual-spectral samples for fusion research.
 
 <p align="center">
   <img width="100%" alt="Synchronized dual-spectral imaging and registration" src="https://github.com/user-attachments/assets/44d23316-6587-41e0-aa77-abb1115bd0ef" />
