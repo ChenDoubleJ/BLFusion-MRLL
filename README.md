@@ -164,10 +164,10 @@ root = "./results/MRLL/"
 Select the checkpoint according to the target noise setting:
 
 ```text
-weights/double_noise/checkpoint_Diff_TDN.pth
-weights/mul_noise/checkpoint_Diff_TDN.pth
-weights/no_noise/checkpoint_Diff_TDN.pth
-weights/ran_noise/checkpoint_Diff_TDN.pth
+weights/double_noise/checkpoint_Diff_TDN.pth  # both visible and infrared modalities contain multiplicative noise
+weights/mul_noise/checkpoint_Diff_TDN.pth     # visible images contain multiplicative noise
+weights/no_noise/checkpoint_Diff_TDN.pth      # no noise setting
+weights/ran_noise/checkpoint_Diff_TDN.pth     # random noise setting
 ```
 
 Run the fusion script:
