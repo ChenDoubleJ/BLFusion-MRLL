@@ -111,11 +111,6 @@ Testing and evaluation instructions will be added after the official implementat
 
 Training scripts, configuration files, and dataset preparation instructions will be released after the official implementation is available.
 
-
-## 📈 Results
-
-Quantitative results, qualitative comparisons, and robustness evaluations will be added in the official release.
-
 ---
 
 # MRLL Dataset
