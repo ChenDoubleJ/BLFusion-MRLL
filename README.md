@@ -184,7 +184,7 @@ Fused_Denoise_Network/results/MRLL/fused/
 
 ## 🚀 Training
 
-Similar to Testing, run python train.py!
+Similar to Testing, run `python train.py` !
 
 ---
 
