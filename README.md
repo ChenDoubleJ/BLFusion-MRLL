@@ -76,7 +76,32 @@ The project uses Mamba/SSM modules. If `mamba-ssm` or `causal-conv1d` fails to b
 
 ## 📦 Pretrained Models
 
-Pretrained checkpoints will be made available with the code release.
+Pretrained checkpoints are available from Baidu Drive:
+
+| Source | Link | Access Code |
+|---|---|---|
+| Baidu Drive | [Download](https://pan.baidu.com/s/1ZFyoQ-ZVuR_vrb50_fT9vA) | `yvkz` |
+
+After downloading `BLFusion_weights`, place the checkpoint files into the corresponding folders:
+
+```text
+Enhancement_Network/
+└── weights/
+    └── checkpoint_Diff_TDN.pth
+
+Fused_Denoise_Network/
+└── weights/
+    ├── double_noise/
+    │   └── checkpoint_Diff_TDN.pth
+    ├── mul_noise/
+    │   └── checkpoint_Diff_TDN.pth
+    ├── no_noise/
+    │   └── checkpoint_Diff_TDN.pth
+    └── ran_noise/
+        └── checkpoint_Diff_TDN.pth
+```
+
+These paths match the default checkpoint locations used by the provided testing scripts.
 
 ## 🧪 Testing
 
