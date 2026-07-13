@@ -62,7 +62,17 @@ The full project will be released after the official paper process is complete. 
 
 ## 🛠️ Installation
 
-The installation guide will be provided together with the code release.
+Create a conda environment named **BLFusion** and install the core dependencies:
+
+```bash
+conda create -n BLFusion python=3.8 -y
+conda activate BLFusion
+
+pip install torch==2.4.1 torchvision==0.19.1
+pip install -r requirements.txt
+```
+
+The project uses Mamba/SSM modules. If `mamba-ssm` or `causal-conv1d` fails to build, please make sure the local CUDA toolkit and PyTorch CUDA version are compatible before reinstalling the requirements.
 
 ## 🧪 Testing
 
