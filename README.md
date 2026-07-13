@@ -105,7 +105,80 @@ These paths match the default checkpoint locations used by the provided testing 
 
 ## 🧪 Testing
 
-Testing and evaluation instructions will be added after the official implementation is released.
+BLFusion follows a two-stage testing workflow. First, run the enhancement network to generate enhanced visible images. Then copy the enhancement results into the fusion network test set and run the denoising-fusion network.
+
+### Stage 1: Visible Image Enhancement
+
+Enter the enhancement network folder:
+
+```bash
+cd Enhancement_Network
+```
+
+Check `test.py` and modify the dataset path, checkpoint path, and result-saving path if needed:
+
+```python
+read_data("dataset/MRLL")
+model_weight_path = "./weights/checkpoint_Diff_TDN.pth"
+root = "./results/MRLL"
+```
+
+Run the enhancement script:
+
+```bash
+python test.py
+```
+
+The enhancement results will be saved under:
+
+```text
+Enhancement_Network/results/MRLL/
+```
+
+### Stage 2: Denoising and Fusion
+
+Copy the enhanced visible results to the test directory used by the fusion network. For example:
+
+```bash
+cd ..
+cp -r Enhancement_Network/results/MRLL/vi_l Fused_Denoise_Network/dataset/MRLL/test/
+cp -r Enhancement_Network/results/MRLL/vi_r Fused_Denoise_Network/dataset/MRLL/test/
+```
+
+Then enter the fusion network folder:
+
+```bash
+cd Fused_Denoise_Network
+```
+
+Check `test.py` and modify the dataset path, checkpoint path, and fusion result-saving path if needed:
+
+```python
+read_data_test("dataset/MRLL")
+model_weight_path = "./weights/mul_noise/checkpoint_Diff_TDN.pth"
+root = "./results/MRLL/"
+```
+
+Select the checkpoint according to the target noise setting:
+
+```text
+weights/double_noise/checkpoint_Diff_TDN.pth
+weights/mul_noise/checkpoint_Diff_TDN.pth
+weights/no_noise/checkpoint_Diff_TDN.pth
+weights/ran_noise/checkpoint_Diff_TDN.pth
+```
+
+Run the fusion script:
+
+```bash
+python test.py
+```
+
+The fused images will be saved to the result directory specified in `test.py`, for example:
+
+```text
+Fused_Denoise_Network/results/MRLL/fused/
+```
 
 ## 🚀 Training
 
