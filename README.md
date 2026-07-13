@@ -184,7 +184,7 @@ Fused_Denoise_Network/results/MRLL/fused/
 
 ## 🚀 Training
 
-Training scripts, configuration files, and dataset preparation instructions will be released after the official implementation is available.
+Similar to Testing, run python train.py!
 
 ---
 
