@@ -52,13 +52,13 @@ BLFusion contains two dedicated stages:
 
 The full project will be released after the official paper process is complete. Planned materials include:
 
-- [ ] Source code for the official BLFusion implementation
-- [ ] Pretrained model checkpoints
-- [ ] Testing and evaluation scripts
-- [ ] Training scripts and configuration files
+- [x] Source code for the official BLFusion implementation
+- [x] Pretrained model checkpoints
+- [x] Testing and evaluation scripts
+- [x] Training scripts and configuration files
 - [x] MRLL dataset download links
-- [ ] Visualization tools and qualitative comparison results
-- [ ] Detailed usage instructions and reproducibility notes
+- [x] Visualization tools and qualitative comparison results
+- [x] Detailed usage instructions and reproducibility notes
 
 ## 🛠️ Installation
 
@@ -74,6 +74,9 @@ pip install -r requirements.txt
 
 The project uses Mamba/SSM modules. If `mamba-ssm` or `causal-conv1d` fails to build, please make sure the local CUDA toolkit and PyTorch CUDA version are compatible before reinstalling the requirements. I previously referred to the following tutorial for installation guidance: https://blog.csdn.net/qq_45100200/article/details/139754231.
 
+## 📦 Pretrained Models
+
+Pretrained checkpoints will be made available with the code release.
 
 ## 🧪 Testing
 
@@ -83,9 +86,6 @@ Testing and evaluation instructions will be added after the official implementat
 
 Training scripts, configuration files, and dataset preparation instructions will be released after the official implementation is available.
 
-## 📦 Pretrained Models
-
-Pretrained checkpoints will be made available with the code release.
 
 ## 📈 Results
 
