@@ -143,6 +143,8 @@ Copy the enhanced visible results to the test directory used by the fusion netwo
 cd ..
 cp -r Enhancement_Network/results/MRLL/vi_l Fused_Denoise_Network/dataset/MRLL/test/
 cp -r Enhancement_Network/results/MRLL/vi_r Fused_Denoise_Network/dataset/MRLL/test/
+cp -r Enhancement_Network/results/MRLL/vi Fused_Denoise_Network/dataset/MRLL/test/
+cp -r Enhancement_Network/results/MRLL/ir Fused_Denoise_Network/dataset/MRLL/test/
 ```
 
 Then enter the fusion network folder:
