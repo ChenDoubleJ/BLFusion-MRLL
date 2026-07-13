@@ -72,7 +72,8 @@ pip install torch==2.4.1 torchvision==0.19.1
 pip install -r requirements.txt
 ```
 
-The project uses Mamba/SSM modules. If `mamba-ssm` or `causal-conv1d` fails to build, please make sure the local CUDA toolkit and PyTorch CUDA version are compatible before reinstalling the requirements.
+The project uses Mamba/SSM modules. If `mamba-ssm` or `causal-conv1d` fails to build, please make sure the local CUDA toolkit and PyTorch CUDA version are compatible before reinstalling the requirements. I previously referred to the following tutorial for installation guidance: https://blog.csdn.net/qq_45100200/article/details/139754231.
+
 
 ## 🧪 Testing
 
