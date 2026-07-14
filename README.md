@@ -8,7 +8,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-TIP(CCF--A)%20Accepted-blue)](#citation)
 [![Code](https://img.shields.io/badge/Code-available-brightgreen)](#code-availability)
-[![Dataset](https://img.shields.io/badge/MRLL-available-brightgreen)](#dataset-availability)
+[![Dataset](https://img.shields.io/badge/MRLL(Dataset)-available-brightgreen)](#dataset-availability)
 
 Official repository for **BLFusion** and the **MRLL** dataset.
 
