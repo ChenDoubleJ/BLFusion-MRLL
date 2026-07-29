@@ -236,8 +236,15 @@ The license will be announced before the public code release. Please use the MRL
 
 ## 📚 Citation
 
-If you find this work or dataset useful for your research, please consider citing our paper. The BibTeX entry will be updated after publication.
+If you find this work or dataset useful for your research, please consider citing our paper:
 
+@article{chen2026breaking, \
+  title={Breaking Low-Light Fusion Barrier: Unsupervised Darkness and Noise-Aware Visible and Infrared Image Fusion Network},\
+  author={Chen, Jiajun and Xu, Han and Liu, Guangcan and Ma, Jiayi},\
+  journal={IEEE Transactions on Image Processing},\
+  year={2026},\
+  publisher={IEEE}\
+}
 
 ## 📬 Contact
 
