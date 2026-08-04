@@ -236,12 +236,12 @@ Compared with existing low-light infrared-visible fusion datasets, MRLL provides
 If you find this work or dataset useful for your research, please consider citing our paper:
 
 ```bibtex
-@article{chen2026breaking, \
-   title={Breaking Low-Light Fusion Barrier: Unsupervised Darkness and Noise-Aware Visible and Infrared Image Fusion Network},\
-   author={Chen, Jiajun and Xu, Han and Liu, Guangcan and Ma, Jiayi},\
-   journal={IEEE Transactions on Image Processing},\
-   year={2026},\
-   publisher={IEEE}\
+@article{chen2026breaking, 
+   title={Breaking Low-Light Fusion Barrier: Unsupervised Darkness and Noise-Aware Visible and Infrared Image Fusion Network},
+   author={Chen, Jiajun and Xu, Han and Liu, Guangcan and Ma, Jiayi},
+   journal={IEEE Transactions on Image Processing},
+   year={2026},
+   publisher={IEEE}
 }
 ```
 ## 📬 Contact
