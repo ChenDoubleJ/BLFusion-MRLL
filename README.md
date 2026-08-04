@@ -230,14 +230,12 @@ Compared with existing low-light infrared-visible fusion datasets, MRLL provides
   <img width="900" alt="Dataset comparison details" src="https://github.com/user-attachments/assets/20556f56-9115-430a-bc3b-90ee5e802e70" />
 </p>
 
-## 📄 License
-
-The license will be announced before the public code release. Please use the MRLL dataset for research purposes only unless otherwise specified.
 
 ## 📚 Citation
 
 If you find this work or dataset useful for your research, please consider citing our paper:
 
+```bibtex
 @article{chen2026breaking, \
    title={Breaking Low-Light Fusion Barrier: Unsupervised Darkness and Noise-Aware Visible and Infrared Image Fusion Network},\
    author={Chen, Jiajun and Xu, Han and Liu, Guangcan and Ma, Jiayi},\
@@ -245,7 +243,7 @@ If you find this work or dataset useful for your research, please consider citin
    year={2026},\
    publisher={IEEE}\
 }
-
+```
 ## 📬 Contact
 
 For questions about BLFusion or the MRLL dataset, please open an issue in this repository.
